@@ -1,0 +1,493 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden visible;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+
+.container{
+    max-width: 1200px;
+}
+
+.first-block{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    animation-name: bgtrans;
+    animation-duration: 4s;
+}
+
+.first-block h2{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+    margin-top: 0;
+    animation: slideleft;
+    animation-duration: 3s;
+}
+
+.first-block h1{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #FAF9F9;
+    animation-name: slide;
+    animation-duration: 3s;
+}
+
+.first-block p{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #DEDEDE;
+    animation: slideleft;
+    animation-duration: 3s;
+}
+
+.btn{
+    display:block;
+    background-color: #FBB731;
+    border-color: #FBB731;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    cursor: pointer;
+    animation: hover;
+    animation-duration: 6s;
+}
+
+.btn:hover{
+    display: block;
+    background-color: #F37335;
+    border-color: #F37335;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s linear;
+    animation: hover;
+    animation-duration: 3s;
+}
+
+.second-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.sale{
+    padding-left: 10px;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    width: 600px;
+    height: 395px;
+}
+
+.sale h1{
+    margin: 0;
+    background-color: #F37335;
+    width: 102px;
+    height: 28px;
+    border-color:#F37335;
+    font-family: 'Nunito Sans Mono',monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 14px;
+    animation: example1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sale h2{
+    margin: 0;
+    font-family: 'Nunito Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sale p{
+    font-family: 'Nunito Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+
+.sale-text{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.free{
+    padding-left: 10px;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    width: 600px;
+    height: 395px;
+}
+
+.free h2{
+    margin: 0;
+    font-family: 'Nunito Sans Mono', monospace;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.free p{
+    font-family: 'Nunito Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+
+.free-text{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.footer{
+    background-color: #1E2F40;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.osn-link{
+    margin: 0;
+    padding: 0;
+}
+
+.osn-link menu{
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.osn-link a{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #DEDEDE;
+    text-decoration: none;
+}
+
+.osn-link a:hover{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #F37335;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.osn-link ul{
+    margin: 0;
+    padding: 0;
+}
+
+.osn-info h1{
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.osn-info p{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DEDEDE;
+}
+
+.osn-info h2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAF9F9;
+}
+
+.telefon{
+    display: grid;
+    margin: 0;
+}
+
+.tel{
+    font-family: 'Nunito Sans Mono', monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+    text-decoration: none;
+}
+
+.tel:hover{
+    text-decoration:underline;
+    cursor:pointer;
+    color: #ff5500;
+    transition: 0.2s linear;
+}
+
+.element-animation{
+    opacity: 0;
+    transition: all 2s;
+    transform:scale(10%);
+}
+
+.element-animation.element-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: scale(100%);
+}
+
+@keyframes slide{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes example {
+    0%   {color: #FBB731;}
+    25%  {color: #ff5500;}
+    50%  {color: #ff5500;}
+    100% {color: #FBB731;}
+  }
+
+@keyframes bgtrans{
+    0%{
+        background-image: url(../img/bg3.png);
+    }
+
+    25% {
+        background-image: url(../img/bg3.png);
+    }
+
+    50% {
+        background-image: url(../img/bg.png);
+    }
+
+    75% {
+        background-image: url(../img/bg.png);
+    }
+
+    100% {
+        background-image: url(../img/bg.png);
+    }
+}
+
+@keyframes example1 {
+    0%   {
+        background-color: #F37335;
+        transform: scale(1, 1);    
+    }
+    25%  {
+        background-color: red;
+        transform: scale(1.2, 1.2); 
+    }
+    50%  {
+        background-color: red;
+        transform: scale(1.2, 1.2); 
+    }
+    100% {
+        background-color: #F37335;
+        transform: scale(1, 1); 
+    }
+  }
+
+@keyframes slideleft{
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes hover{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+@media (max-width:800px){
+    .telefon{
+        width:100px;
+        height:50px;
+        display:block;
+    }
+
+    .tel1{
+        font-size: 10px;
+    }
+
+    .tel{
+        font-size: 10px;
+    }
+
+    .osn-link menu{
+        font-size: 10px;
+    }
+
+    .osn-link menu ul a{
+        font-size: 10px;
+    }
+
+    .osn-info h1{
+        font-size: 10px;
+    }
+
+    .osn-info h2{
+        font-size: 10px;
+    }
+
+    .osn-info p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 1000px){
+
+    .first-block{
+        background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    }
+
+}
+
+@media(max-width: 800px){
+
+    .row{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 600px){
+
+    .sale{
+        width: 300px;
+    }
+
+    .free{
+        width: 300px;
+    }
+
+    .telefon{
+        width:100px;
+        height:50px;
+        display:block;
+    }
+
+    .tel1{
+        font-size: 7px;
+    }
+
+    .tel{
+        font-size: 7px;
+    }
+
+    .osn-link menu{
+        font-size: 7px;
+    }
+
+    .osn-link menu ul a{
+        font-size: 7px;
+    }
+
+    .osn-info h1{
+        font-size: 7px;
+    }
+
+    .osn-info h2{
+        font-size: 7px;
+    }
+
+    .osn-info p{
+        font-size: 7px;
+    }
+
+}
